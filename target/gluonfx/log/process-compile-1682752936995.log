@@ -1,0 +1,48 @@
+Process
+=======
+compile
+
+Command Line
+============
+/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/reflectionconfig-arm64-ios.json -H:JNIConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/jniconfig-arm64-ios.json -H:ResourceConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/resourceconfig-arm64-ios.json -H:PageSize=16384 -Dsvm.targetName=iOS -Dsvm.targetArch=arm64 -H:+UseCAPCache -H:CAPCacheDir=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/capcache -H:CompilerBackend=lir -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$IOS_AARCH64 -cp /Users/pixelmission/.m2/repository/com/gluonhq/substrate/0.0.58/substrate-0.0.58.jar:/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/tmp/classpathJar.jar hellofx.HelloFX
+
+Output
+======
+Warning: Ignoring server-mode native-image argument --no-server.
+========================================================================================================================
+GraalVM Native Image: Generating 'hellofx.hellofx' (shared library)...
+========================================================================================================================
+[1/7] Initializing...                                                                                    (5,7s @ 0,24GB)
+ Version info: 'GraalVM 22.3.1 Java 17 CE'
+ Java version info: '17.0.6+10-jvmci-22.3-b13'
+ Garbage collector: Serial GC
+ 1 user-specific feature(s)
+ - org.graalvm.home.HomeFinderFeature: Finds GraalVM paths and its version number
+[2/7] Performing analysis...  [**********]                                                              (71,9s @ 2,19GB)
+  11.337 (89,67%) of 12.643 classes reachable
+  19.698 (66,48%) of 29.628 fields reachable
+  54.161 (60,80%) of 89.086 methods reachable
+     655 classes,   112 fields, and 2.481 methods registered for reflection
+     115 classes,   107 fields, and   192 methods registered for JNI access
+       5 native libraries: -framework CoreServices, -framework Foundation, dl, pthread, z
+[3/7] Building universe...                                                                               (8,7s @ 2,52GB)
+[4/7] Parsing methods...      [***]                                                                      (5,2s @ 2,37GB)
+[5/7] Inlining methods...     [****]                                                                     (2,9s @ 2,53GB)
+[6/7] Compiling methods...    [******]                                                                  (44,2s @ 1,93GB)
+
+------------------------------------------------------------------------------------------------------------------------
+                        11,3s (7,0% of total time) in 44 GCs | Peak RSS: 3,39GB | CPU load: 4,82
+------------------------------------------------------------------------------------------------------------------------
+Produced artifacts:
+ /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/graal_isolate.h (header)
+ /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/graal_isolate_dynamic.h (header)
+ /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/hellofx.hellofx.build_artifacts.txt (txt)
+ /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/hellofx.hellofx.h (header)
+ /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/hellofx.hellofx_dynamic.h (header)
+========================================================================================================================
+Finished generating 'hellofx.hellofx' in 2m 40s.
+
+
+Result
+======
+result: 0

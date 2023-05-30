@@ -1,0 +1,22 @@
+Process
+=======
+link
+
+Command Line
+============
+clang /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/dummy.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/AppDelegate.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/HelloFX/JvmFuncsFallbacks.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/gvm/tmp/SVM-1682753188569/hellofx.hellofx.o -ljava -lnio -lzip -lnet -lprefs -ljvm -lfdlibm -lz -ldl -lj2pkcs11 -ljaas -lextnet -lstdc++ -w -fPIC -arch arm64 -mios-version-min=11.0 -isysroot /Volumes/T7/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/ios-arm64/sdk/lib/libprism_es2.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/ios-arm64/sdk/lib/libglass.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/ios-arm64/sdk/lib/libjavafx_font.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/ios-arm64/sdk/lib/libprism_common.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/ios-arm64/sdk/lib/libjavafx_iio.a -lpthread -llibchelper -lffi -ldarwin -Wl,-framework,Foundation -Wl,-framework,UIKit -Wl,-framework,CoreGraphics -Wl,-framework,MobileCoreServices -Wl,-framework,OpenGLES -Wl,-framework,CoreText -Wl,-framework,QuartzCore -Wl,-framework,ImageIO -Wl,-framework,CoreBluetooth -Wl,-framework,CoreImage -Wl,-framework,CoreLocation -Wl,-framework,CoreMedia -Wl,-framework,CoreMotion -Wl,-framework,CoreVideo -Wl,-framework,Accelerate -Wl,-framework,AVFoundation -Wl,-framework,AudioToolbox -Wl,-framework,MediaPlayer -Wl,-framework,UserNotifications -Wl,-framework,ARKit -Wl,-framework,AVKit -Wl,-framework,SceneKit -Wl,-framework,StoreKit -Wl,-framework,ModelIO -Wl,-framework,WebKit -o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/arm64-ios/HelloFX.app/HelloFX -L/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/ios-arm64/sdk/lib -L/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/27/ios-arm64 -L/Users/pixelmission/.gluon/substrate/javaStaticSdk/18-ea+prep18-8/ios-arm64/staticjdk/lib/static
+
+Output
+======
+Undefined symbols for architecture arm64:
+  "_checkCPUFeatures", referenced from:
+      ___data in hellofx.hellofx.o
+  "_checkCPUFeaturesOrExit", referenced from:
+      ___data in hellofx.hellofx.o
+ld: symbol(s) not found for architecture arm64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Result
+======
+result: 1

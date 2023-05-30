@@ -1,0 +1,6 @@
+[HEADER]
+graal_isolate.h
+hellofx.hellofx.h
+graal_isolate_dynamic.h
+hellofx.hellofx_dynamic.h
+

@@ -1,0 +1,18 @@
+Process
+=======
+compile-additional-sources
+
+Command Line
+============
+gcc -c -DSUBSTRATE -mmacosx-version-min=10.12 -I/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX AppDelegate.m launcher.c
+
+Output
+======
+xcrun: error: active developer path ("/Volumes/T7/backupMac2022/T7_Apps/Xcode_ventura.app/Contents/Developer") does not exist
+Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+See `man xcode-select` for more details.
+
+
+Result
+======
+result: 1

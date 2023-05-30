@@ -1,0 +1,377 @@
+[Fri Apr 28 09:04:19 CEST 2023][INFO] ==================== COMPILE TASK ====================
+[Fri Apr 28 09:04:20 CEST 2023][INFO] We will now compile your code for x86_64-apple-darwin. This may take some time.
+[Fri Apr 28 09:04:20 CEST 2023][FINE] Processing JavaStatic dependencies at /Users/pixelmission/.gluon/substrate/javaStaticSdk/18-ea+prep18-8/darwin-x86_64/staticjdk/lib/static
+[Fri Apr 28 09:04:20 CEST 2023][FINE] Processing JavaFXStatic dependencies at /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib
+[Fri Apr 28 09:04:20 CEST 2023][INFO] Downloading JavaFX static libs...
+[Fri Apr 28 09:04:20 CEST 2023][FINE] Processing zip file: url = https://download2.gluonhq.com/substrate/javafxstaticsdk/openjfx-21-ea+9.1-darwin-x86_64-static.zip, zip = /Users/pixelmission/.gluon/substrate/openjfx-21-ea+9.1-darwin-x86_64-static.zip, subDir = javafxStaticSdk, levels = [21-ea+9.1, darwin-x86_64], md5 = javafxStaticSdk-darwin-x86_64.md5
+[Fri Apr 28 09:06:51 CEST 2023][INFO] JavaFX static libs downloaded successfully
+[Fri Apr 28 09:06:51 CEST 2023][FINE] Setup dependencies done
+[Fri Apr 28 09:06:52 CEST 2023][FINE] Extracting native libs to: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/lib
+[Fri Apr 28 09:06:52 CEST 2023][FINE] Looking for resource: /native/macosx/AppDelegate.m
+[Fri Apr 28 09:06:52 CEST 2023][FINE] Looking for resource: /native/macosx/launcher.c
+[Fri Apr 28 09:06:52 CEST 2023][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -mmacosx-version-min=10.12 -I/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX AppDelegate.m launcher.c
+[Fri Apr 28 09:06:52 CEST 2023][FINE] Start process compile-additional-sources...
+[Fri Apr 28 09:06:52 CEST 2023][FINE] [SUB] xcrun: error: active developer path ("/Volumes/T7/backupMac2022/T7_Apps/Xcode_ventura.app/Contents/Developer") does not exist
+[Fri Apr 28 09:06:52 CEST 2023][FINE] [SUB] Use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, or use `xcode-select --install` to install the standalone command line developer tools.
+[Fri Apr 28 09:06:52 CEST 2023][FINE] [SUB] See `man xcode-select` for more details.
+[Fri Apr 28 09:06:52 CEST 2023][FINE] Result for compile-additional-sources: 1
+[Fri Apr 28 09:06:52 CEST 2023][SEVERE] Process compile-additional-sources failed with result: 1
+Check the log files under /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[Fri Apr 28 09:06:52 CEST 2023][INFO] Logging process [compile-additional-sources] to file: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/log/process-compile-additional-sources-1682665612072.log
+[Fri Apr 28 09:06:52 CEST 2023][SEVERE] Compiling failed.
+Check the log files under /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/log
+And please check https://docs.gluonhq.com/ for more information.
+[Sat Apr 29 08:56:53 CEST 2023][INFO] ==================== COMPILE TASK ====================
+[Sat Apr 29 08:56:54 CEST 2023][INFO] We will now compile your code for x86_64-apple-darwin. This may take some time.
+[Sat Apr 29 08:56:54 CEST 2023][FINE] Extracting native libs to: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/lib
+[Sat Apr 29 08:56:54 CEST 2023][FINE] Looking for resource: /native/macosx/AppDelegate.m
+[Sat Apr 29 08:56:54 CEST 2023][FINE] Looking for resource: /native/macosx/launcher.c
+[Sat Apr 29 08:56:54 CEST 2023][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -mmacosx-version-min=10.12 -I/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX AppDelegate.m launcher.c
+[Sat Apr 29 08:56:54 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Result for compile-additional-sources: 0
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/HelloFX.class to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/hellofx/HelloFX.class
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/styles.css to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/hellofx/styles.css
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/openduke.png to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/hellofx/openduke.png
+[Sat Apr 29 08:57:14 CEST 2023][FINE] PB Command for jar: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/jar cf /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/classes.jar -C /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112 .
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Start process jar...
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Result for jar: 0
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning for init build time files
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/classes.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning for reflection files
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/classes.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning for JNI files
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-darwin.json
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/classes.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning for resource files
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9406003525399846112/classes.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/HelloFX.class to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes15462688793210820663/hellofx/HelloFX.class
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/styles.css to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes15462688793210820663/hellofx/styles.css
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/openduke.png to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes15462688793210820663/hellofx/openduke.png
+[Sat Apr 29 08:57:14 CEST 2023][FINE] PB Command for jar: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/jar cf /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes15462688793210820663/classes.jar -C /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes15462688793210820663 .
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Start process jar...
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Result for jar: 0
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning for resource bundles
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes15462688793210820663/classes.jar
+[Sat Apr 29 08:57:14 CEST 2023][FINE] PB Command for java-version: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/java --version
+[Sat Apr 29 08:57:14 CEST 2023][FINE] Start process java-version...
+[Sat Apr 29 08:57:15 CEST 2023][FINE] [SUB] openjdk 17.0.6 2023-01-17
+[Sat Apr 29 08:57:15 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13)
+[Sat Apr 29 08:57:15 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13, mixed mode, sharing)
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Result for java-version: 0
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Copied resource /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/deps/javafx.base.jar
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Copied resource /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/deps/javafx.controls.jar
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Copied resource /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/deps/javafx.graphics.jar
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Class-Path manifest entry for pathing jar: ../../../../classes deps/javafx.base.jar deps/javafx.controls.jar deps/javafx.graphics.jar
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Pathing jar created at /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/classpathJar.jar
+[Sat Apr 29 08:57:15 CEST 2023][FINE] PB Command for compile: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/reflectionconfig-x86_64-darwin.json -H:JNIConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/jniconfig-x86_64-darwin.json -H:ResourceConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/resourceconfig-x86_64-darwin.json -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$MACOS_AMD64 -cp /Users/pixelmission/.m2/repository/com/gluonhq/substrate/0.0.58/substrate-0.0.58.jar:/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/classpathJar.jar hellofx.HelloFX
+[Sat Apr 29 08:57:15 CEST 2023][FINE] Start process compile...
+[Sat Apr 29 08:57:15 CEST 2023][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Sat Apr 29 08:57:20 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat Apr 29 08:57:20 CEST 2023][INFO] [SUB] GraalVM Native Image: Generating 'hellofx.hellofx' (shared library)...
+[Sat Apr 29 08:57:20 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB] [1/7] Initializing...                                                                                   (12,2s @ 0,25GB)
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB]  Version info: 'GraalVM 22.3.1 Java 17 CE'
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB]  Java version info: '17.0.6+10-jvmci-22.3-b13'
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB]  C compiler: cc (apple, x86_64, 14.0.3)
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB]  Garbage collector: Serial GC
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB]  1 user-specific feature(s)
+[Sat Apr 29 08:57:29 CEST 2023][INFO] [SUB]  - org.graalvm.home.HomeFinderFeature: Finds GraalVM paths and its version number
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB] [2/7] Performing analysis...  [**********]                                                              (66,6s @ 2,52GB)
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB]   11.449 (89,61%) of 12.776 classes reachable
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB]   19.885 (66,36%) of 29.964 fields reachable
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB]   54.597 (60,94%) of 89.597 methods reachable
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB]      653 classes,   112 fields, and 2.481 methods registered for reflection
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB]      116 classes,   107 fields, and   193 methods registered for JNI access
+[Sat Apr 29 08:58:36 CEST 2023][INFO] [SUB]        5 native libraries: -framework CoreServices, -framework Foundation, dl, pthread, z
+[Sat Apr 29 08:58:45 CEST 2023][INFO] [SUB] [3/7] Building universe...                                                                               (8,6s @ 1,09GB)
+[Sat Apr 29 08:58:51 CEST 2023][INFO] [SUB] [4/7] Parsing methods...      [***]                                                                      (6,3s @ 2,67GB)
+[Sat Apr 29 08:58:58 CEST 2023][INFO] [SUB] [5/7] Inlining methods...     [****]                                                                     (5,4s @ 2,34GB)
+[Sat Apr 29 08:59:38 CEST 2023][INFO] [SUB] [6/7] Compiling methods...    [******]                                                                  (40,3s @ 2,41GB)
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB] 
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB]                         8,7s (5,6% of total time) in 43 GCs | Peak RSS: 3,19GB | CPU load: 4,98
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB] Produced artifacts:
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/graal_isolate.h (header)
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/graal_isolate_dynamic.h (header)
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/hellofx.hellofx.build_artifacts.txt (txt)
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/hellofx.hellofx.h (header)
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/hellofx.hellofx_dynamic.h (header)
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat Apr 29 08:59:51 CEST 2023][INFO] [SUB] Finished generating 'hellofx.hellofx' in 2m 33s.
+[Sat Apr 29 08:59:51 CEST 2023][FINE] Result for compile: 0
+[Sat Apr 29 08:59:51 CEST 2023][FINE] Logging process [compile] to file: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/log/process-compile-1682751591785.log
+[Sat Apr 29 08:59:51 CEST 2023][FINE] Checking execution permissions for /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1
+[Sat Apr 29 08:59:51 CEST 2023][FINE] PB Command for check xattr: xattr /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1
+[Sat Apr 29 08:59:51 CEST 2023][FINE] Start process check xattr...
+[Sat Apr 29 08:59:51 CEST 2023][FINE] Result for check xattr: 0
+[Sat Apr 29 08:59:51 CEST 2023][FINE] PB Command for java-version: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/java --version
+[Sat Apr 29 08:59:51 CEST 2023][FINE] Start process java-version...
+[Sat Apr 29 08:59:52 CEST 2023][FINE] [SUB] openjdk 17.0.6 2023-01-17
+[Sat Apr 29 08:59:52 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13)
+[Sat Apr 29 08:59:52 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13, mixed mode, sharing)
+[Sat Apr 29 08:59:52 CEST 2023][FINE] Result for java-version: 0
+[Sat Apr 29 08:59:52 CEST 2023][FINE] PB Command for check version: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/java -version
+[Sat Apr 29 08:59:52 CEST 2023][FINE] Start process check version...
+[Sat Apr 29 08:59:52 CEST 2023][FINE] [SUB] openjdk version "17.0.6" 2023-01-17
+[Sat Apr 29 08:59:52 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13)
+[Sat Apr 29 08:59:52 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13, mixed mode, sharing)
+[Sat Apr 29 08:59:52 CEST 2023][FINE] Result for check version: 0
+[Sat Apr 29 08:59:52 CEST 2023][INFO] Substrate is tested with the Gluon's GraalVM build which you can find at https://github.com/gluonhq/graal/releases.
+While you can still use other GraalVM builds, there is no guarantee that these will work properly with Substrate
+[Sat Apr 29 09:46:38 CEST 2023][INFO] ==================== COMPILE TASK ====================
+[Sat Apr 29 09:46:39 CEST 2023][INFO] We will now compile your code for x86_64-apple-darwin. This may take some time.
+[Sat Apr 29 09:46:39 CEST 2023][FINE] Extracting native libs to: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/lib
+[Sat Apr 29 09:46:39 CEST 2023][FINE] Looking for resource: /native/macosx/AppDelegate.m
+[Sat Apr 29 09:46:39 CEST 2023][FINE] Looking for resource: /native/macosx/launcher.c
+[Sat Apr 29 09:46:39 CEST 2023][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -mmacosx-version-min=10.12 -I/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX AppDelegate.m launcher.c
+[Sat Apr 29 09:46:39 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Result for compile-additional-sources: 0
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/HelloFX.class to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/hellofx/HelloFX.class
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/styles.css to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/hellofx/styles.css
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/openduke.png to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/hellofx/openduke.png
+[Sat Apr 29 09:46:44 CEST 2023][FINE] PB Command for jar: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/jar cf /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/classes.jar -C /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545 .
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Start process jar...
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Result for jar: 0
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning for init build time files
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/classes.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning for reflection files
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/reflectionconfig.json
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/classes.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning for JNI files
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig-x86_64-darwin.json
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/jniconfig.json
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/classes.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning for resource files
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes11616276373495169545/classes.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/HelloFX.class to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9360026738229519282/hellofx/HelloFX.class
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/styles.css to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9360026738229519282/hellofx/styles.css
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/openduke.png to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9360026738229519282/hellofx/openduke.png
+[Sat Apr 29 09:46:44 CEST 2023][FINE] PB Command for jar: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/jar cf /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9360026738229519282/classes.jar -C /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9360026738229519282 .
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Start process jar...
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Result for jar: 0
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning for resource bundles
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar::META-INF/substrate/config/resourcebundles
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Adding classes from /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar::META-INF/substrate/config/resourcebundles
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes9360026738229519282/classes.jar
+[Sat Apr 29 09:46:44 CEST 2023][FINE] PB Command for java-version: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/java --version
+[Sat Apr 29 09:46:44 CEST 2023][FINE] Start process java-version...
+[Sat Apr 29 09:46:45 CEST 2023][FINE] [SUB] openjdk 17.0.6 2023-01-17
+[Sat Apr 29 09:46:45 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13)
+[Sat Apr 29 09:46:45 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13, mixed mode, sharing)
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Result for java-version: 0
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Copied resource /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.base.jar to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/deps/javafx.base.jar
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Copied resource /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.controls.jar to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/deps/javafx.controls.jar
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Copied resource /Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/javafx.graphics.jar to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/deps/javafx.graphics.jar
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Class-Path manifest entry for pathing jar: ../../../../classes deps/javafx.base.jar deps/javafx.controls.jar deps/javafx.graphics.jar
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Pathing jar created at /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/classpathJar.jar
+[Sat Apr 29 09:46:45 CEST 2023][FINE] PB Command for compile: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/native-image -Djdk.internal.lambda.eagerlyInitialize=false --no-server -H:+SharedLibrary -H:+AddAllCharsets -H:+ReportExceptionStackTraces -H:-DeadlockWatchdogExitOnTimeout -H:DeadlockWatchdogInterval=0 -H:+RemoveSaturatedTypeFlows -H:+ExitAfterRelocatableImageWrite --features=org.graalvm.home.HomeFinderFeature -H:TempDirectory=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp -H:EnableURLProtocols=http,https -H:ReflectionConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/reflectionconfig-x86_64-darwin.json -H:JNIConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/jniconfig-x86_64-darwin.json -H:ResourceConfigurationFiles=/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/resourceconfig-x86_64-darwin.json -H:IncludeResourceBundles=com/sun/javafx/scene/control/skin/resources/controls,com/sun/javafx/scene/control/skin/resources/controls-nt,com.sun.javafx.tk.quantum.QuantumMessagesBundle -Dsvm.platform=org.graalvm.nativeimage.Platform$MACOS_AMD64 -cp /Users/pixelmission/.m2/repository/com/gluonhq/substrate/0.0.58/substrate-0.0.58.jar:/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/classpathJar.jar hellofx.HelloFX
+[Sat Apr 29 09:46:45 CEST 2023][FINE] Start process compile...
+[Sat Apr 29 09:46:45 CEST 2023][INFO] [SUB] Warning: Ignoring server-mode native-image argument --no-server.
+[Sat Apr 29 09:46:49 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat Apr 29 09:46:49 CEST 2023][INFO] [SUB] GraalVM Native Image: Generating 'hellofx.hellofx' (shared library)...
+[Sat Apr 29 09:46:49 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB] [1/7] Initializing...                                                                                    (9,1s @ 0,24GB)
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB]  Version info: 'GraalVM 22.3.1 Java 17 CE'
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB]  Java version info: '17.0.6+10-jvmci-22.3-b13'
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB]  C compiler: cc (apple, x86_64, 14.0.3)
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB]  Garbage collector: Serial GC
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB]  1 user-specific feature(s)
+[Sat Apr 29 09:46:55 CEST 2023][INFO] [SUB]  - org.graalvm.home.HomeFinderFeature: Finds GraalVM paths and its version number
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB] [2/7] Performing analysis...  [**********]                                                              (55,6s @ 2,32GB)
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB]   11.449 (89,61%) of 12.776 classes reachable
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB]   19.885 (66,36%) of 29.964 fields reachable
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB]   54.597 (60,94%) of 89.592 methods reachable
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB]      653 classes,   112 fields, and 2.481 methods registered for reflection
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB]      116 classes,   107 fields, and   193 methods registered for JNI access
+[Sat Apr 29 09:47:51 CEST 2023][INFO] [SUB]        5 native libraries: -framework CoreServices, -framework Foundation, dl, pthread, z
+[Sat Apr 29 09:48:00 CEST 2023][INFO] [SUB] [3/7] Building universe...                                                                               (8,2s @ 2,67GB)
+[Sat Apr 29 09:48:06 CEST 2023][INFO] [SUB] [4/7] Parsing methods...      [***]                                                                      (5,8s @ 2,48GB)
+[Sat Apr 29 09:48:09 CEST 2023][INFO] [SUB] [5/7] Inlining methods...     [****]                                                                     (2,9s @ 2,63GB)
+[Sat Apr 29 09:48:53 CEST 2023][INFO] [SUB] [6/7] Compiling methods...    [******]                                                                  (43,4s @ 1,82GB)
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB] 
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB]                         7,8s (5,4% of total time) in 43 GCs | Peak RSS: 3,38GB | CPU load: 5,20
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB] ------------------------------------------------------------------------------------------------------------------------
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB] Produced artifacts:
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/graal_isolate.h (header)
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/graal_isolate_dynamic.h (header)
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/hellofx.hellofx.build_artifacts.txt (txt)
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/hellofx.hellofx.h (header)
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB]  /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/hellofx.hellofx_dynamic.h (header)
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB] ========================================================================================================================
+[Sat Apr 29 09:49:08 CEST 2023][INFO] [SUB] Finished generating 'hellofx.hellofx' in 2m 21s.
+[Sat Apr 29 09:49:08 CEST 2023][FINE] Result for compile: 0
+[Sat Apr 29 09:49:08 CEST 2023][FINE] Logging process [compile] to file: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/log/process-compile-1682754548911.log
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Checking execution permissions for /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1
+[Sat Apr 29 09:49:09 CEST 2023][FINE] PB Command for check xattr: xattr /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Start process check xattr...
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Result for check xattr: 0
+[Sat Apr 29 09:49:09 CEST 2023][FINE] PB Command for java-version: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/java --version
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Start process java-version...
+[Sat Apr 29 09:49:09 CEST 2023][FINE] [SUB] openjdk 17.0.6 2023-01-17
+[Sat Apr 29 09:49:09 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13)
+[Sat Apr 29 09:49:09 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13, mixed mode, sharing)
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Result for java-version: 0
+[Sat Apr 29 09:49:09 CEST 2023][FINE] PB Command for check version: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/java -version
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Start process check version...
+[Sat Apr 29 09:49:09 CEST 2023][FINE] [SUB] openjdk version "17.0.6" 2023-01-17
+[Sat Apr 29 09:49:09 CEST 2023][FINE] [SUB] OpenJDK Runtime Environment GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13)
+[Sat Apr 29 09:49:09 CEST 2023][FINE] [SUB] OpenJDK 64-Bit Server VM GraalVM CE 22.3.1 (build 17.0.6+10-jvmci-22.3-b13, mixed mode, sharing)
+[Sat Apr 29 09:49:09 CEST 2023][FINE] Result for check version: 0
+[Sat Apr 29 09:49:09 CEST 2023][INFO] Substrate is tested with the Gluon's GraalVM build which you can find at https://github.com/gluonhq/graal/releases.
+While you can still use other GraalVM builds, there is no guarantee that these will work properly with Substrate
+[Sat Apr 29 09:50:19 CEST 2023][INFO] ==================== PACKAGE TASK ====================
+[Sat Apr 29 09:50:19 CEST 2023][INFO] Building app bundle: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app
+[Sat Apr 29 09:50:19 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app/Contents/MacOS/HelloFX
+[Sat Apr 29 09:50:19 CEST 2023][FINE] PB Command for sdk: xcrun --sdk macosx --show-sdk-path
+[Sat Apr 29 09:50:19 CEST 2023][FINE] Start process sdk...
+[Sat Apr 29 09:50:27 CEST 2023][FINE] [SUB] /Volumes/T7/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Result for sdk: 0
+[Sat Apr 29 09:50:27 CEST 2023][FINE] platform info file at /Volumes/T7/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Info.plist
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copy Info.plist to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gensrc/darwin/Info.plist
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/Info.plist
+[Sat Apr 29 09:50:27 CEST 2023][INFO] Default macOS plist generated in /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gensrc/darwin/Info.plist.
+Consider copying it to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/src/darwin before performing any modification
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_128@1x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_128@2x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_16@1x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_16@2x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_256@1x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_256@2x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_32@1x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_32@2x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_512@1x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/AppIcon.iconset/icon_512@2x.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] PB Command for icon: iconutil -c icns /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gensrc/darwin/assets/AppIcon.iconset
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Start process icon...
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Result for icon: 0
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copy AppIcon.icns to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app/Contents/Resources/AppIcon.icns
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gensrc/darwin/assets/AppIcon.icns to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app/Contents/Resources/AppIcon.icns
+[Sat Apr 29 09:50:27 CEST 2023][INFO] Default macOS resources generated in /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gensrc/darwin.
+Consider copying them to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/src/darwin before performing any modification
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copy PkgInfo to /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app/Contents
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Looking for resource: /native/macosx/assets/PkgInfo
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning for plist files
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/HelloFX.class to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes7476808909054741372/hellofx/HelloFX.class
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/styles.css to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes7476808909054741372/hellofx/styles.css
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Copied resource /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/classes/hellofx/openduke.png to /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes7476808909054741372/hellofx/openduke.png
+[Sat Apr 29 09:50:27 CEST 2023][FINE] PB Command for jar: /Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/bin/jar cf /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes7476808909054741372/classes.jar -C /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes7476808909054741372 .
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Start process jar...
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Result for jar: 0
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /Users/pixelmission/.m2/repository/org/openjfx/javafx-base/20/javafx-base-20-mac.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /Users/pixelmission/.m2/repository/org/openjfx/javafx-base/20/javafx-base-20.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /Users/pixelmission/.m2/repository/org/openjfx/javafx-controls/20/javafx-controls-20-mac.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /Users/pixelmission/.m2/repository/org/openjfx/javafx-controls/20/javafx-controls-20.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /Users/pixelmission/.m2/repository/org/openjfx/javafx-graphics/20/javafx-graphics-20-mac.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /Users/pixelmission/.m2/repository/org/openjfx/javafx-graphics/20/javafx-graphics-20.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Scanning /var/folders/4_/n8fx_qjd4qd171k0ysxgncg00000gn/T/classes7476808909054741372/classes.jar
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Plist at /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gensrc/darwin/Info.plist
+[Sat Apr 29 09:50:27 CEST 2023][FINE] PB Command for security: security find-identity -p codesigning -v
+[Sat Apr 29 09:50:27 CEST 2023][FINE] Start process security...
+[Sat Apr 29 09:50:28 CEST 2023][FINE] [SUB]   1) 3CB1D7F874F3AB2239824BD45D00D140E4159A5E "Apple Development: Stefan Selch (BQQ6B6XA6K)"
+[Sat Apr 29 09:50:28 CEST 2023][FINE] [SUB]   2) 514C451E7166503E8FAB24709F5EAC88FC5866FA "Apple Development: Christian Karg (VAJ98YU2K6)"
+[Sat Apr 29 09:50:28 CEST 2023][FINE] [SUB]      2 valid identities found
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Result for security: 0
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Find identity by pattern from 2 identities
+[Sat Apr 29 09:50:28 CEST 2023][FINE] There are 2 possible valid identities
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Provision profile asked with bundleId = com.gluonhq.samples.hellofx
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Provision profile asked with bundleId = com.gluonhq.samples.hellofx
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Provisioning profile: null
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Provisioning profile not found.
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Signing with entitlements path: null
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Signing app with identity: SigningIdentity{name='Apple Development: Christian Karg (VAJ98YU2K6)', sha1='514C451E7166503E8FAB24709F5EAC88FC5866FA'}
+[Sat Apr 29 09:50:28 CEST 2023][FINE] PB Command for codesign executable: codesign --timestamp --options runtime --force --sign 514C451E7166503E8FAB24709F5EAC88FC5866FA /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app/Contents/MacOS/HelloFX
+[Sat Apr 29 09:50:28 CEST 2023][FINE] Start process codesign executable...
+[Sat Apr 29 09:50:29 CEST 2023][FINE] Result for codesign executable: true
+[Sat Apr 29 09:50:29 CEST 2023][FINE] PB Command for codesign app: codesign --timestamp --options runtime --force --sign 514C451E7166503E8FAB24709F5EAC88FC5866FA /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app
+[Sat Apr 29 09:50:29 CEST 2023][FINE] Start process codesign app...
+[Sat Apr 29 09:50:29 CEST 2023][FINE] [SUB] /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app: replacing existing signature
+[Sat Apr 29 09:50:30 CEST 2023][FINE] Result for codesign app: true
+[Sat Apr 29 09:50:30 CEST 2023][FINE] Validating codesign...
+[Sat Apr 29 09:50:30 CEST 2023][FINE] PB Command for verify: codesign --verify -vvvv /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app
+[Sat Apr 29 09:50:30 CEST 2023][FINE] Start process verify...
+[Sat Apr 29 09:50:30 CEST 2023][FINE] [SUB] /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app: valid on disk
+[Sat Apr 29 09:50:30 CEST 2023][FINE] [SUB] /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app: satisfies its Designated Requirement
+[Sat Apr 29 09:50:30 CEST 2023][FINE] Result for verify: true
+[Sat Apr 29 09:50:30 CEST 2023][FINE] Signing done successfully
+[Sat Apr 29 09:50:30 CEST 2023][INFO] App bundle built successfully at: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX.app
+[Sat Apr 29 12:55:20 CEST 2023][INFO] ==================== LINK TASK ====================
+[Sat Apr 29 12:55:20 CEST 2023][FINE] Looking for resource: /native/macosx/AppDelegate.m
+[Sat Apr 29 12:55:20 CEST 2023][FINE] Looking for resource: /native/macosx/launcher.c
+[Sat Apr 29 12:55:20 CEST 2023][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -mmacosx-version-min=10.12 -I/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX AppDelegate.m launcher.c
+[Sat Apr 29 12:55:20 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat Apr 29 12:55:25 CEST 2023][FINE] Result for compile-additional-sources: 0
+[Sat Apr 29 12:55:25 CEST 2023][FINE] PB Command for link: gcc /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/AppDelegate.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/launcher.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/SVM-1682754410575/hellofx.hellofx.o -ljava -lnio -lzip -lnet -lprefs -lj2pkcs11 -lfdlibm -lextnet -ljvm -llibchelper -ldarwin -lpthread -lz -ldl -lstdc++ -mmacosx-version-min=10.12 -lobjc -Wl,-framework,Foundation -Wl,-framework,AppKit -Wl,-framework,ApplicationServices -Wl,-framework,OpenGL -Wl,-framework,QuartzCore -Wl,-framework,Security -Wl,-framework,Accelerate -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libglass.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libjavafx_font.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libjavafx_iio.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libprism_es2.a -o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX -L/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib -L/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64 -L/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/static/darwin-amd64
+[Sat Apr 29 12:55:25 CEST 2023][FINE] Start process link...
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(codeSynchronization.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/libjvm.a(JvmFuncs.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(cSunMiscSignal.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(cpuid.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/libdarwin.a(foundation.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/libjvm.a(JvmFuncsFallbacks.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(timeZone.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(getEnviron.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:25 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(macrosAsFunctions.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:55:26 CEST 2023][FINE] Result for link: 0
+[Sat Apr 29 12:55:26 CEST 2023][FINE] Logging process [link] to file: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/log/process-link-1682765726930.log
+[Sat Apr 29 12:56:24 CEST 2023][INFO] ==================== LINK TASK ====================
+[Sat Apr 29 12:56:24 CEST 2023][FINE] Looking for resource: /native/macosx/AppDelegate.m
+[Sat Apr 29 12:56:24 CEST 2023][FINE] Looking for resource: /native/macosx/launcher.c
+[Sat Apr 29 12:56:24 CEST 2023][FINE] PB Command for compile-additional-sources: gcc -c -DSUBSTRATE -mmacosx-version-min=10.12 -I/Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX AppDelegate.m launcher.c
+[Sat Apr 29 12:56:24 CEST 2023][FINE] Start process compile-additional-sources...
+[Sat Apr 29 12:56:26 CEST 2023][FINE] Result for compile-additional-sources: 0
+[Sat Apr 29 12:56:26 CEST 2023][FINE] PB Command for link: gcc /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/AppDelegate.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/HelloFX/launcher.o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/gvm/tmp/SVM-1682754410575/hellofx.hellofx.o -ljava -lnio -lzip -lnet -lprefs -lj2pkcs11 -lfdlibm -lextnet -ljvm -llibchelper -ldarwin -lpthread -lz -ldl -lstdc++ -mmacosx-version-min=10.12 -lobjc -Wl,-framework,Foundation -Wl,-framework,AppKit -Wl,-framework,ApplicationServices -Wl,-framework,OpenGL -Wl,-framework,QuartzCore -Wl,-framework,Security -Wl,-framework,Accelerate -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libglass.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libjavafx_font.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libjavafx_iio.a -Wl,-force_load,/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib/libprism_es2.a -o /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/x86_64-darwin/HelloFX -L/Users/pixelmission/.gluon/substrate/javafxStaticSdk/21-ea+9.1/darwin-x86_64/sdk/lib -L/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64 -L/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/static/darwin-amd64
+[Sat Apr 29 12:56:26 CEST 2023][FINE] Start process link...
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/libjvm.a(JvmFuncs.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(codeSynchronization.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(cSunMiscSignal.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/libjvm.a(JvmFuncsFallbacks.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/libdarwin.a(foundation.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(cpuid.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(timeZone.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(getEnviron.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:26 CEST 2023][INFO] [SUB] ld: warning: object file (/Users/pixelmission/Documents/graalvm-ce-java17-22.3.1/Contents/Home/lib/svm/clibraries/darwin-amd64/liblibchelper.a(macrosAsFunctions.o)) was built for newer macOS version (10.13) than being linked (10.12)
+[Sat Apr 29 12:56:27 CEST 2023][FINE] Result for link: 0
+[Sat Apr 29 12:56:27 CEST 2023][FINE] Logging process [link] to file: /Users/pixelmission/Downloads/gluon-samples-master/HelloFX/target/gluonfx/log/process-link-1682765787426.log
