@@ -33,7 +33,7 @@ jobs:
           gluon-license: ${{ secrets.GLUON_LICENSE }} 
 
       - name: Gluon Build
-        run: ./mvnw -Pios gluonfx:build gluonfx:package
+        run: mvn -Pios gluonfx:build gluonfx:package
 
       - uses: Apple-Actions/upload-testflight-build@master
         with:
