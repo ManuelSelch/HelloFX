@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.gluonhq.hello;
+package com.manuel;
 
 import com.gluonhq.attach.display.DisplayService;
 import com.gluonhq.attach.util.Platform;
@@ -46,7 +46,7 @@ import javafx.stage.Stage;
 
 import static com.gluonhq.charm.glisten.application.AppManager.HOME_VIEW;
 
-public class HelloGluonApp extends Application {
+public class hellofx extends Application {
 
     private final AppManager appManager = AppManager.initialize(this::postInit);
 
@@ -56,7 +56,7 @@ public class HelloGluonApp extends Application {
             FloatingActionButton fab = new FloatingActionButton(MaterialDesignIcon.SEARCH.text,
                     e -> System.out.println("Search"));
 
-            ImageView imageView = new ImageView(new Image(HelloGluonApp.class.getResourceAsStream("openduke.png")));
+            ImageView imageView = new ImageView(new Image(hellofx.class.getResourceAsStream("openduke.png")));
 
             imageView.setFitHeight(200);
             imageView.setPreserveRatio(true);
@@ -85,7 +85,7 @@ public class HelloGluonApp extends Application {
 
     private void postInit(Scene scene) {
         Swatch.LIGHT_GREEN.assignTo(scene);
-        scene.getStylesheets().add(HelloGluonApp.class.getResource("styles.css").toExternalForm());
+        scene.getStylesheets().add(hellofx.class.getResource("styles.css").toExternalForm());
 
         if (Platform.isDesktop()) {
             Dimension2D dimension2D = DisplayService.create()
