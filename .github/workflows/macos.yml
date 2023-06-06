@@ -43,7 +43,7 @@ jobs:
           product-path: ${{ steps.outputfile.outputs.path }}
           appstore-connect-username: ${{ secrets.NOTARIZATION_USERNAME }}
           appstore-connect-password: ${{ secrets.NOTARIZATION_PASSWORD }}
-          primary-bundle-id: com.gluonhq.hello.HelloGluonApp
+          primary-bundle-id: com.manuel.hellofx
           asc-provider: ${{ secrets.GLUON_MACSIGN_PREFIX }}
           verbose: false
 
@@ -57,7 +57,7 @@ jobs:
         id: provisioning
         uses: Apple-Actions/download-provisioning-profiles@v1.0.1
         with:
-          bundle-id: com.gluonhq.hello.HelloGluonApp
+          bundle-id: com.manuel.hellofx
           profile-type: 'MAC_APP_STORE'
           issuer-id: ${{ secrets.GLUON_IOS_APPSTORE_ISSUER_ID }}
           api-key-id: ${{ secrets.GLUON_IOS_APPSTORE_KEY_ID }}
