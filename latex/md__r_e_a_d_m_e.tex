@@ -1,0 +1,33 @@
+\chapter{Hello\+FX}
+\hypertarget{md__r_e_a_d_m_e}{}\label{md__r_e_a_d_m_e}\index{HelloFX@{HelloFX}}
+\label{md__r_e_a_d_m_e_autotoc_md0}%
+\Hypertarget{md__r_e_a_d_m_e_autotoc_md0}%
+ A simple Hello World application with Java 11+, Java\+FX 15+ and Graal\+VM.\hypertarget{md__r_e_a_d_m_e_autotoc_md1}{}\doxysection{\texorpdfstring{Documentation}{Documentation}}\label{md__r_e_a_d_m_e_autotoc_md1}
+Read about this sample \href{https://docs.gluonhq.com/\#_hellofx}{\texttt{ here}}\hypertarget{md__r_e_a_d_m_e_autotoc_md2}{}\doxysection{\texorpdfstring{Quick Instructions}{Quick Instructions}}\label{md__r_e_a_d_m_e_autotoc_md2}
+We use \href{https://docs.gluonhq.com/}{\texttt{ Gluon\+FX plugin}} to build a native image for platforms including desktop, android and i\+OS. Please follow the prerequisites as stated \href{https://docs.gluonhq.com/\#_requirements}{\texttt{ here}}.\hypertarget{md__r_e_a_d_m_e_autotoc_md3}{}\doxysubsection{\texorpdfstring{Desktop}{Desktop}}\label{md__r_e_a_d_m_e_autotoc_md3}
+Run the application on JVM/\+Hot\+Spot\+: \begin{DoxyVerb}mvn gluonfx:run
+\end{DoxyVerb}
+ Run the application and explore all scenarios to generate config files for the native image with\+: \begin{DoxyVerb}mvn gluonfx:runagent
+\end{DoxyVerb}
+ Build a native image using\+: \begin{DoxyVerb}mvn gluonfx:build
+\end{DoxyVerb}
+ Run the native image app\+: \begin{DoxyVerb}mvn gluonfx:nativerun
+\end{DoxyVerb}
+ \hypertarget{md__r_e_a_d_m_e_autotoc_md4}{}\doxysubsection{\texorpdfstring{Android}{Android}}\label{md__r_e_a_d_m_e_autotoc_md4}
+Build a native image for Android using\+: \begin{DoxyVerb}mvn gluonfx:build -Pandroid
+\end{DoxyVerb}
+ Package the native image as an \textquotesingle{}apk\textquotesingle{} file\+: \begin{DoxyVerb}mvn gluonfx:package -Pandroid
+\end{DoxyVerb}
+ Install it on a connected android device\+: \begin{DoxyVerb}mvn gluonfx:install -Pandroid
+\end{DoxyVerb}
+ Run the installed app on a connected android device\+: \begin{DoxyVerb}mvn gluonfx:nativerun -Pandroid
+\end{DoxyVerb}
+ \hypertarget{md__r_e_a_d_m_e_autotoc_md5}{}\doxysubsection{\texorpdfstring{i\+OS}{iOS}}\label{md__r_e_a_d_m_e_autotoc_md5}
+\hypertarget{md__r_e_a_d_m_e_autotoc_md6}{}\doxysection{\texorpdfstring{mvn -\/\+Pios gluonfx\+:compile}{mvn -Pios gluonfx:compile}}\label{md__r_e_a_d_m_e_autotoc_md6}
+Build a native image for i\+OS using\+: \begin{DoxyVerb}mvn gluonfx:build -Pios
+\end{DoxyVerb}
+ Install and run the native image on a connected i\+OS device\+: \begin{DoxyVerb}mvn gluonfx:nativerun -Pios
+\end{DoxyVerb}
+ Create an IPA file (for submission to Test\+Flight or App Store)\+: \begin{DoxyVerb}mvn gluonfx:package -Pios
+\end{DoxyVerb}
+ 
